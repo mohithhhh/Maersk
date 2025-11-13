@@ -284,7 +284,7 @@ The Maersk AI Data Analyst Copilot is built on a modular, high-performance archi
 - Translation pipeline ensures UX consistency across components.
 
 
-## Deliverables Summary
+## 4.Deliverables Summary
 
 This repository includes a complete implementation of the Maersk AI Data Analyst Copilot, a bilingual (English + Portuguese-BR), AI-powered analytics assistant built for insight generation, visualization, and conversational knowledge retrieval.
 
