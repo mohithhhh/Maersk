@@ -353,13 +353,6 @@ This repository includes a complete implementation of the Maersk AI Data Analyst
 
 ⸻
 
-**8. Testing & Quality Assurance**
-	•	Mock AI responses for testing
-	•	Strict JSON schema validation for visuals
-	•	Fallback verification scenarios
-	•	Bilingual test cases
----
+## Note:
 
-This section is ready for your GitHub README.  
-Let me know if you want matching architecture diagrams (ASCII, Mermaid, or PNG).
-
+**“If you encounter errors or missing responses, it’s almost always due to an invalid or rate-limited Gemini API key. Please verify that your key is active and correctly configured in the .env file.”**
