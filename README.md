@@ -5,16 +5,16 @@
 <img width="1710" height="992" alt="Screenshot 2025-11-13 at 10 47 34 AM" src="https://github.com/user-attachments/assets/6e4801dc-b049-464f-8fa5-860767276527" />
 
 
-##  Full Feature Set — Maersk AI Data Analyst Copilot
+## 1 Full Feature Set — Maersk AI Data Analyst Copilot
 
-###  Core Intelligence
+### 1,1 Core Intelligence
 - Generative AI–powered analytics using **Gemini Pro + Flash fallback**.
 - Smart intent routing to distinguish **conversational queries** vs. **analytical data questions**.
 - Dual-mode intelligence:
   - Conversational search mode (Google Search grounding).
   - Data-driven insight generation (visualization + KPIs + summaries).
 
-###  Bilingual Experience
+### 1.2 Bilingual Experience
 - Full **English + Brazilian Portuguese (pt-BR)** support.
 - Automatic language detection with context-aware translations.
 
@@ -28,7 +28,7 @@
 
 
 
-###  Dynamic Visualization Engine
+### 1.3 Dynamic Visualization Engine
 - **Chart visualizations:** Line & Bar charts with dynamic scaling.
 - **KPI cards:** Executive-style metrics with trend indicators.
 - **Brazil Geo Map Visualization:**
@@ -49,7 +49,7 @@
 <img width="1709" height="1021" alt="Screenshot 2025-11-13 at 10 48 56 AM" src="https://github.com/user-attachments/assets/59c3d84d-2569-4a63-8a02-5412d50bdb03" />
 
 
-### Backend & Data Processing
+### 1.4 Backend & Data Processing
 - FastAPI backend serving structured insights from Olist e-commerce dataset.
 - Clean business summaries generated per query.
 - Unified schema output compatible with frontend visual components.
@@ -64,14 +64,14 @@
 
 
 
-### Insight Generation
+### 1.5 Insight Generation
 - Executive-grade summaries explaining metrics, trends, and anomalies.
 - Insight Drawer panel for deep-dive explanations.
 - Automated narrative-building across charts, KPIs, and geo insights.
 
   
 
-### Conversational Chat Interface
+### 1.6 Conversational Chat Interface
 - Persistent chat history stored locally.
 - Animated typing indicators and smooth UI transitions.
 - Suggestion chips for quick-start queries.
@@ -79,7 +79,7 @@
   <img width="1710" height="992" alt="Screenshot 2025-11-13 at 10 47 57 AM" src="https://github.com/user-attachments/assets/c3eb32b4-d5e9-472e-98e4-44cd40f2a061" />
 
 
-### Search-Enhanced Knowledge Mode
+### 1.7 Search-Enhanced Knowledge Mode
 - Factual answers about **Maersk**, logistics, supply chain, trade, etc.
 - Uses **Google Search grounding** for trusted external knowledge.
 - Displays source links for transparency.
@@ -89,7 +89,7 @@
 <img width="878" height="672" alt="Screenshot 2025-11-13 at 11 20 21 AM" src="https://github.com/user-attachments/assets/9594feb7-9647-4147-9d93-a853b7bca8f3" />
 
 
-### Maersk-Branded UI
+### 1.8 Maersk-Branded UI
 - Authentic Maersk Blue (#42B0D5) color system.
 - Clean enterprise dashboard layout.
 - Custom avatars (Maersk AI + User).
@@ -97,14 +97,14 @@
 <img width="1257" height="416" alt="Maersk-Color-Palette-Image" src="https://github.com/user-attachments/assets/b08bb694-e1da-4d88-bf74-16003586c0f5" />
 
 
-### Export & Reporting
+### 1.9 Export & Reporting
 - One-click **PDF export** of chat + insights.
 - High-resolution canvas capture using `html2canvas` + `jsPDF`.
 
 <img width="193" height="38" alt="Screenshot 2025-11-13 at 10 38 57 AM" src="https://github.com/user-attachments/assets/51ceb0b3-e9a9-4ab1-8e2a-ca065821d713" />
 
 
-### Developer-Friendly Architecture
+### 1.10 Developer-Friendly Architecture
 - Modular codebase:
   - `geminiService`
   - `apiService`
@@ -112,39 +112,39 @@
 - Extendable schema for new chart types or map layers.
 - Mock mode for offline development and demos.
 
-### Environment & Configuration
+### 1.11 Environment & Configuration
 - Secure API key management via Vite env variables.
 - Robust fallback layers for API downtime.
 
-### Error & Failover Handling
+### 1.12 Error & Failover Handling
 - Automatic fallback chain: **Pro → Flash → Mock**.
 - Friendly user-facing messages during outages.
 - Safe JSON parsing + schema validation layer.
 
-## Technology Stack
+## 2 Technology Stack
 
-### Frontend
+### 2.1 Frontend
 	•	React + Vite + TypeScript
 	•	Maersk Design Layer (Tailwind + Maersk-blue theming)
 	•	Recharts for chart visualizations
 	•	Custom SVG Brazil Map Engine
 	•	Gemini Client SDK (@google/genai)
 
-### Backend
+### 2.2 Backend
 	•	FastAPI with modular endpoints
 	•	Query engine for Olist dataset
 	•	Business logic summarizer
 	•	CORS-enabled REST API
 	•	Container-ready structure
 
-### AI Layer
+### 2.3 AI Layer
 	•	Gemini 1.5 Pro + Flash
 	•	Google Search grounding
 	•	Smart routing (Conversational ↔ Analytical)
 	•	JSON-schema-driven visualization generator
 	•	Dual-lingual processing + translation layer
 
-## 🏛️ System Architecture Overview
+## 3 System Architecture Overview
 
                                  +--------------------------------------+
                                  |        Maersk AI Data Analyst UI     |
