@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maersk AI Data Analyst Copilot</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* For custom scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #f1f5f9;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #cbd5e1;
+            border-radius: 10px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #94a3b8;
+        }
+        /* Animation for new messages */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        .fade-in {
+            animation: fadeIn 0.5s ease-out forwards;
+        }
+         /* Animation for homepage elements */
+        @keyframes slideUpFadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        .animate-slideUpFadeIn {
+            animation: slideUpFadeIn 0.8s ease-out forwards;
+        }
+
+        /* Animation for main app appearing */
+        @keyframes fadeInApp {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        .fade-in-app {
+            animation: fadeInApp 0.6s ease-in forwards;
+        }
+
+        /* Print-specific styles for PDF export */
+        @media print {
+            body {
+                background-color: white;
+            }
+            /* Hide UI elements that shouldn't be in the report */
+            aside, header, #chat-input-area {
+                display: none !important;
+            }
+            /* Ensure the main content takes up the full page */
+            main {
+                overflow: visible !important;
+                height: auto !important;
+                width: 100% !important;
+            }
+            .prose {
+                max-width: none;
+            }
+            /* Remove shadows and borders from chat bubbles for cleaner look */
+            .bg-white.shadow-sm {
+                box-shadow: none;
+                border: 1px solid #e2e8f0;
+            }
+        }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.29.0",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-slate-50">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

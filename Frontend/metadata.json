@@ -1,0 +1,5 @@
+{
+  "name": "Copy of Maersk AI Data Analyst Copilot",
+  "description": "An AI-powered chatbot that acts as a data analyst for the Olist Brazilian e-commerce dataset, providing insights, trends, and geo-spatial summaries. The app leverages Gemini with Google Search grounding for accurate, up-to-date information.",
+  "requestFramePermissions": []
+}
