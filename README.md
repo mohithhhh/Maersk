@@ -14,6 +14,16 @@
   - Conversational search mode (Google Search grounding).
   - Data-driven insight generation (visualization + KPIs + summaries).
 
+API KEY Analytics during testing
+
+<img width="717" height="378" alt="Screenshot 2025-11-16 at 7 28 25 PM" src="https://github.com/user-attachments/assets/5cbb688c-7c20-4ac7-90c8-6bdb16112a92" />
+
+<img width="709" height="366" alt="Screenshot 2025-11-16 at 7 28 36 PM" src="https://github.com/user-attachments/assets/37713224-7611-419e-9d9a-1d26c8ff0df6" />
+
+<img width="705" height="365" alt="Screenshot 2025-11-16 at 7 28 48 PM" src="https://github.com/user-attachments/assets/7c0d7274-7301-4a1b-baf4-860ded210279" />
+
+
+
 ### 1.2 Bilingual Experience
 - Full **English + Brazilian Portuguese (pt-BR)** support.
 - Automatic language detection with context-aware translations.
